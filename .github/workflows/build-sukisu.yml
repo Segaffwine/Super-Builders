@@ -49,6 +49,15 @@ on:
       device_codename:
         type: string
         default: ""
+      add_hide_ksu:
+        type: boolean
+        default: true
+      add_spoof_uname:
+        type: boolean
+        default: true
+      add_susfs_log_off:
+        type: boolean
+        default: true
 
 jobs:
   build:
